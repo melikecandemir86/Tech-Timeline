@@ -1,6 +1,8 @@
 # Tech-Timeline: Dijital Müze
 ## Proje Açıklaması
-Bu proje, dijital teknolojinin tarihsel gelişimini (ilk bilgisayarlardan günümüze donanım ve yazılım evrimini) kronolojik bir sıra ile sunan etkileşimli bir dijital müze platformudur. Kullanıcılar teknoloji tarihindeki önemli dönüm noktalarını inceleyebilir ve bu içeriklere yorum yaparak etkileşime girebilirler.
+Bu proje, dijital teknolojinin tarihsel gelişimini (ilk bilgisayarlardan günümüze donanım ve yazılım evrimini)
+kronolojik bir sıra ile sunan etkileşimli bir dijital müze platformudur. Kullanıcılar teknoloji tarihindeki önemli dönüm noktalarını inceleyebilir ve
+bu içeriklere yorum yaparak etkileşime girebilirler.
 
 ## Hedef Kullanıcılar Kim?
 * Teknoloji tarihine meraklı öğrenciler ve araştırmacılar.

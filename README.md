@@ -1,4 +1,4 @@
-# Tech-Timeline: Dijital Müze
+# Tech-Timeline: Teknoloji Zaman Çizelgesi
 ## Proje Açıklaması
 Bu proje, dijital teknolojinin tarihsel gelişimini (ilk bilgisayarlardan günümüze donanım ve yazılım evrimini)
 kronolojik bir sıra ile sunan etkileşimli bir dijital müze platformudur. Kullanıcılar teknoloji tarihindeki önemli dönüm noktalarını inceleyebilir ve

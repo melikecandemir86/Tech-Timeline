@@ -23,10 +23,10 @@ bu içeriklere yorum yaparak etkileşime girebilirler.
 * **MySQL:** Kullanıcı verileri, teknolojiler ve yorumların saklandığı veritabanı.
 
 ## Kurulum
-1. Bu projeyi yerel bilgisayarınızda çalıştırmak için önce dosyaları indirin (veya `git clone` komutunu kullanın).
+1. Bu projeyi yerel bilgisayarınızda çalıştırmak için önce dosyaları indirin (veya "git clone" komutunu kullanın).
 2. Proje PHP ve MySQL tabanlı olduğu için **XAMPP** veya **WampServer** gibi bir yerel sunucu yazılımı kullanılması gerekmektedir.
-3. İndirdiğiniz klasörü sunucunuzun `htdocs` klasörüne kopyalayın.
-4. Tarayıcınızın adres çubuğuna `localhost/Tech-Timeline` yazarak projeyi görüntüleyebilirsiniz.
+3. İndirdiğiniz klasörü sunucunuzun "htdocs" klasörüne kopyalayın.
+4. Tarayıcınızın adres çubuğuna "localhost/Tech-Timeline" yazarak projeyi görüntüleyebilirsiniz.
 
 ## Canlı Link
 Henüz yayınlanmadı.

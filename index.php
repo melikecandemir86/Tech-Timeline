@@ -1,44 +1,147 @@
 <?php
-// YORUM SATIRI KISMI 
+/* Proje: Tech-Timeline (Dijital Müze) 
+  Kurum: Ahi Evran Üniversitesi
+  Geliştirici: Melike Candemir
+*/
 ?>
-
 <!DOCTYPE html>
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Tech-Timeline | Dijital Müze</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech-Timeline: Dijital Müze | Ahi Evran Üniversitesi</title>
+    
     <link rel="stylesheet" href="assets/css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-
-    <header> 
-        <h1>Tech-Timeline: Dijital Müze</h1>
+    <header class="header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">⚙️</span>
+                <div class="logo-text">
+                    <h1>TECH-TIMELINE</h1>
+                    <p>Dijital Müze</p>
+                </div>
+            </div>
+            
+            <nav class="navigation">
+                <ul>
+                    <li><a href="index.php" class="nav-link active">Ana Sayfa</a></li>
+                    <li><a href="pages/zaman-tuneli.php" class="nav-link">Zaman Tüneli</a></li>
+                    <li><a href="pages/icatlar.php" class="nav-link">İcatlar</a></li>
+                    <li><a href="pages/iletisim.php" class="nav-link">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="index.php">Ana Sayfa</a></li> 
-            <li><a href="pages/zaman-tuneli.html">Zaman Tüneli</a></li>
-            <li><a href="pages/icatlar.html">İcatlar</a></li>
-            <li><a href="pages/iletisim.html">İletişim</a></li>
-        </ul>
-    </nav>
-
-    <main>
-        <section>
-            <h2>Teknoloji Tarihine Hoş Geldiniz</h2>
-            <p>Bu platform, dijital teknolojinin gelişimini kronolojik olarak inceleyebileceğiniz etkileşimli bir dijital müzedir.</p>
-        </section>
+    <section class="hero">
+        <div class="hero-background">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+        </div>
         
-        <section>
-            <h2>Öne Çıkanlar</h2>
-            <p>Yakında donanım ve yazılım tarihindeki dönüm noktalarını burada listeliyor olacağız.</p>
-        </section>
-    </main>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h2 class="hero-title">Teknoloji Tarihinin Yolculuğuna Hoş Geldiniz</h2>
+                <p class="hero-subtitle">
+                    Geçmişten geleceğe uzanan dijital bir yolculuk. İnsanlığın en büyük buluşlarını keşfedin ve teknolojinin evrimini takip edin.
+                </p>
+                <div class="hero-buttons">
+                    <a href="pages/zaman-tuneli.php" class="btn btn-primary">Keşfetmeye Başla</a>
+                    <a href="pages/iletisim.php" class="btn btn-secondary">Bize Ulaşın</a>
+                </div>
+            </div>
+            
+            <div class="hero-visual">
+                <div class="floating-element element-1">
+                    <svg width="120" height="120" viewBox="0 0 120 120">
+                        <circle cx="60" cy="60" r="55" fill="none" stroke="#FFB81C" stroke-width="2" opacity="0.5"/>
+                        <circle cx="60" cy="60" r="45" fill="none" stroke="#00592D" stroke-width="2" opacity="0.5"/>
+                        <path d="M30 60 Q60 30 90 60 Q60 90 30 60" fill="none" stroke="#FFB81C" stroke-width="2"/>
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <footer>
-        <p>© 2026 Tech-Timeline | Melike Candemir - Tüm hakları saklıdır.</p>
+    <section class="innovations">
+        <div class="section-header">
+            <h2>Tarih Boyunca Büyük İcatlar</h2>
+            <p>Teknolojinin sınırlarını genişleten dönüm noktaları</p>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card innovation-card">
+                <div class="card-header">
+                    <div class="card-icon">💻</div>
+                    <span class="card-year">1950'ler</span>
+                </div>
+                <h3>Bilgisayarların Doğuşu</h3>
+                <p>İlk elektronik bilgisayarlar devasa odaları doldururken, bugünün dijital dünyasının temellerini attılar.</p>
+                <div class="card-footer">
+                    <a href="pages/icatlar.php" class="card-link">Detayları Gör →</a>
+                </div>
+            </div>
+
+            <div class="card innovation-card">
+                <div class="card-header">
+                    <div class="card-icon">📱</div>
+                    <span class="card-year">1970'ler</span>
+                </div>
+                <h3>Kişisel Bilgisayar Devrimi</h3>
+                <p>Apple ve IBM gibi markaların çıkışı, teknolojiyi herkesin evine ve masasına taşıdı.</p>
+                <div class="card-footer">
+                    <a href="pages/icatlar.php" class="card-link">Detayları Gör →</a>
+                </div>
+            </div>
+
+            <div class="card innovation-card">
+                <div class="card-header">
+                    <div class="card-icon">🌐</div>
+                    <span class="card-year">1990'lar</span>
+                </div>
+                <h3>İnternet Çağı</h3>
+                <p>Dünya Çapında Ağ (WWW) ile iletişim, ticaret ve bilgi paylaşımı tamamen evrim geçirdi.</p>
+                <div class="card-footer">
+                    <a href="pages/icatlar.php" class="card-link">Detayları Gör →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Tech-Timeline</h4>
+                <p>Ahi Evran Üniversitesi öğrencisi tarafından hazırlanan dijital müze platformu.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Hızlı Menü</h4>
+                <ul>
+                    <li><a href="pages/zaman-tuneli.php">Zaman Tüneli</a></li>
+                    <li><a href="pages/icatlar.php">İcatlar</a></li>
+                    <li><a href="pages/iletisim.php">İletişim</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>İletişim</h4>
+                <p>
+                    Ahi Evran Üniversitesi<br>
+                    Kırşehir, Türkiye<br>
+                    <a href="mailto:candemir.melike@ogr.ahievran.edu.tr">E-posta Gönder</a>
+                </p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Tech-Timeline | Melike Candemir - Tüm Hakları Saklıdır.</p>
+        </div>
     </footer>
-<script src="js/main.js"></script>
+
+    <script src="js/main.js"></script>
 </body>
 </html>

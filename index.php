@@ -37,6 +37,6 @@
     <footer>
         <p>© 2026 Tech-Timeline | Melike Candemir - Tüm hakları saklıdır.</p>
     </footer>
-
+<script src="js/main.js"></script>
 </body>
 </html>

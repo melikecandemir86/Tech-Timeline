@@ -704,18 +704,3 @@ a {
 }
 
 
-/* Logo için eklediğimiz özel kısım */
-.university-logo img {
-    height: 55px; /* Kibar durması için ideal boyut */
-    width: auto;
-    filter: drop-shadow(0 2px 4px rgba(0,0,0,0.2));
-    transition: transform 0.3s ease;
-}
-
-.university-logo img:hover {
-    transform: scale(1.1);
-}
-
-@media (max-width: 768px) {
-    .university-logo img { height: 40px; }
-}

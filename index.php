@@ -13,7 +13,7 @@
 
     <nav>
         <ul>
-            <li><a href="index.html">Ana Sayfa</a></li>
+            <li><a href="index.php">Ana Sayfa</a></li> 
             <li><a href="pages/zaman-tuneli.html">Zaman Tüneli</a></li>
             <li><a href="pages/icatlar.html">İcatlar</a></li>
             <li><a href="pages/iletisim.html">İletişim</a></li>

@@ -1,4 +1,6 @@
-
+<?php
+// YORUM SATIRI KISMI 
+?>
 
 <!DOCTYPE html>
 <html lang="tr">
